@@ -18,9 +18,6 @@ class Navbar extends React.Component{
                                 <Link className="nav-link" to="gallery">Galeria <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">
-                                <Link className="nav-link" to="#">Tareas <span className="sr-only">(current)</span></Link>
-                            </li>
-                            <li className="nav-item active">
                                 <Link className="nav-link" to="form">Form <span className="sr-only">(current)</span></Link>
                             </li>
                             <li className="nav-item active">

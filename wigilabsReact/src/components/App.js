@@ -6,6 +6,7 @@ import Home from "../pages/home/Home";
 import Gallery from "../pages/gallery/Gallery";
 import Form from "../pages/form/Form"
 import Chat from "../pages/chat/Chat"
+import Task from "../pages/tareas/Task";
 import Navbar from "./navbar/Navbar";
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                     <Route exact path="/gallery" component={Gallery}></Route>
                     <Route exact path="/form" component={Form}></Route>
                     <Route exact path="/chat" component={Chat}></Route>
+
                 </Switch>
         </BrowserRouter>
     );
